@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.container {
+    border: 1px solid magenta;
+    width: 800px;
+    height: 5000px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.green-box {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    /* position: relative; */
+    /* top: 40px; */
+    
+}
+
+
+.yellow-box {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.red-box {
+    background-color:red;
+    width: 100px;
+    height: 100px;
+     position: sticky; 
+
+}
+
+
+.blue-box {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+   position: fixed;
+    /* z-index: 1; */
+    
+   
+
+}
